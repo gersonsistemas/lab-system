@@ -1,0 +1,30 @@
+RewriteEngine On
+#Rutas declaradas para mantener URL amigables
+RewriteRule ^login autoload.php?ruta=login
+RewriteRule ^logout autoload.php?ruta=logout
+RewriteRule ^nosession autoinfo.php?ruta=nosession
+RewriteRule ^lockscreen autoinfo.php?ruta=lockscreen
+RewriteRule ^errordb autoinfo.php?ruta=errordb
+RewriteRule ^forbidden autoinfo.php?ruta=forbidden
+RewriteRule ^reporte autoinfo.php?ruta=reporte
+RewriteRule ^inicio autoload.php?ruta=inicio
+RewriteRule ^perfil autoload.php?ruta=perfil
+RewriteRule ^configuracion autoload.php?ruta=configuracion
+RewriteRule ^organizacion autoload.php?ruta=organizacion
+RewriteRule ^bitacora autoload.php?ruta=bitacora
+RewriteRule ^respaldo autoload.php?ruta=respaldo
+RewriteRule ^backup autoload.php?ruta=backup
+RewriteRule ^galeria autoload.php?ruta=galeria
+RewriteRule ^view autoload.php?ruta=view
+RewriteRule ^phpmailer autoload.php?ruta=phpmailer
+RewriteRule ^paciente autoload.php?ruta=paciente
+RewriteRule ^detalle-paciente autoload.php?ruta=detalle-paciente
+RewriteRule ^detalle-citologia autoload.php?ruta=detalle-citologia
+RewriteRule ^detalle-biopsia autoload.php?ruta=detalle-biopsia
+RewriteRule ^citologia autoload.php?ruta=citologia
+RewriteRule ^biopsia autoload.php?ruta=biopsia
+RewriteRule ^clinica autoload.php?ruta=clinica
+RewriteRule ^doctor autoload.php?ruta=doctor
+RewriteRule ^detalle-clinica autoload.php?ruta=detalle-clinica
+RewriteRule ^pre-citologia autoload.php?ruta=pre-citologia
+RewriteRule ^pre-biopsia autoload.php?ruta=pre-biopsia
